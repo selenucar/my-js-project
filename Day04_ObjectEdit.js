@@ -1,5 +1,6 @@
 /*
   {JSON} --> JavaScript Object Notation
+
   OBJECTS:
   In JS the reference types;
   Function
@@ -9,9 +10,7 @@
   {} is used to create an object
   :  is used to create key-value pairs
   ,  is used to add multiple key-value pairs
-  
-*/
-
+**/
 console.clear();
 
 
@@ -45,13 +44,12 @@ console.log(person.lName); // "Blair"
 console.log(person);
 /*
   [object Object] {
-  age: 18,
-  fName: "Sam",
-  isEmployed: false,
-  lName: "Blair"
-}
-
-*/
+    age: 18,
+    fName: "Sam",
+    isEmployed: false,
+    lName: "Blair"
+  }
+**/
 
 // editting value
 // . NEW     KEY
@@ -63,11 +61,9 @@ console.log(person);
 
 /*
   [object Object] {
-  age: 18,
-  fName: "William",
-  isEmployed: false,
-  lName: "Blair"
-}
-
-*/
-
+    age: 18,
+    fName: "William",
+    isEmployed: false,
+    lName: "Blair"
+  }
+**/

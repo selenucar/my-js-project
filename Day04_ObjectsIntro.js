@@ -9,8 +9,7 @@
   {} is used to create an object
   :  is used to create key-value pairs
   ,  is used to add multiple key-value pairs
-  
-*/
+**/
 
 console.clear();
 
