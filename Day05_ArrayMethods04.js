@@ -24,7 +24,7 @@ console.log(sliceDrinks); // ["tea"]
 //water - coke - fanta - tea
 //drink array : ['water', 'coke', 'fanta','tea']
 const joinedItems=drinks.join(' - ')
-console.log(typeof(joinedItems));//string"
+console.log(typeof(joinedItems));//"string"
 console.log(joinedItems);//"water - coke - fanta - tea"
 const joinedItems1=drinks.join('')
 console.log(joinedItems1);//"watercokefantatea"

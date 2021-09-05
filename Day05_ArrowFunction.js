@@ -7,6 +7,7 @@ function sum(a){
   return a+100;
 }
 console.log(sum(9));//109
+
 //anonymus function
 var sum1 = function (a){
   return a+100;
@@ -17,6 +18,7 @@ console.log(sum1(10));//110
 //1  remove function keyword(function) and function name(sum)
 //2. use => BETWEEN THE PARAMETER BODY
 //3. use variable and store your arrow function
+
 var arrow = (a)=>{
   return a+100;
 }
@@ -31,6 +33,7 @@ console.log(arrow1(12));//112
 //IF THERE IS ONLY ONE PARAMETER
 var arrow2 = a => a+100;
 console.log(arrow2(13));//113
+
 var squares = x=>x*x
 console.log(squares(6));//36
 
@@ -41,11 +44,13 @@ function sum2(a,b){
   return a+b+100;
 }
 console.log(sum2(10,20));//130
+
 //anonymus function
 var sumResult2=function (a,b){
   return a+b+100;
 }
 console.log(sumResult2(11,21));//132
+
 //With Arrow Function
 //1  remove function keyword(function) and function name(sum)
 //2. use => BETWEEN THE PARAMETER BODY
@@ -69,11 +74,13 @@ function sum3(){
   return x+y+100
 }
 console.log(sum3());//138
+
 //anonymus function
 var sumResult3=function (){
   return x+y+100
 }
 console.log(sumResult3());//138
+
 //Arrow function
 var arrow3=()=>{
   return x+y+100;
